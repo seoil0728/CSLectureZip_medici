@@ -1,1 +1,8 @@
 # CSLectureZip
+
+## day1 - basic data, string formatting, number formatting
+## day2 - operator, if
+## day3 - switch, for, while, foreach
+## day4 - array, enumerate
+## day5 - Method
+## day6 - structure
