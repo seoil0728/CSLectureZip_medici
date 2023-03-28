@@ -6,3 +6,4 @@
 ## day4 - array, enumerate
 ## day5 - Method
 ## day6 - structure
+## day7 - class
