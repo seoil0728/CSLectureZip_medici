@@ -7,3 +7,4 @@
 ## day5 - Method
 ## day6 - structure
 ## day7 - class
+## day8 - abstract class, interface
