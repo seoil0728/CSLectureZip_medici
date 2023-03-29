@@ -147,6 +147,7 @@ namespace day8
             lig.Cry_Tiger();
             lig.Bite();
             lig.Play();
+            lig.Play();
         }
     }
 }
