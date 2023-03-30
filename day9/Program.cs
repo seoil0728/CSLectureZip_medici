@@ -112,7 +112,17 @@ namespace day9
             Console.Write("Type city : ");
             arli.Add(Console.ReadLine());
             Console.WriteLine($"Your List = [{arli[0]}, {arli[1]}, {arli[2]}, {arli[3]}, {arli[4]}]");
-
+            Console.Write("Your List = [");
+            for (int i = 0; i < arli.Count; i++)
+            {
+                if (arli[i].GetType() == "b".GetType())
+                    Console.Write($"\'{arli[i]}\'");
+                else
+                    Console.Write(arli[i].ToString());
+                if (i < arli.Count - 1)
+                    Console.Write(", ");
+            }
+            Console.WriteLine("]");
             Console.WriteLine();
 
             // quiz 03
