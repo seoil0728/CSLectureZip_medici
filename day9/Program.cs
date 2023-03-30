@@ -162,10 +162,7 @@ namespace day9
             string myWord = "banana fruit orange apple mango";
             Hashtable ht = new Hashtable();
             foreach (string w in myWord.Split())
-            {
-                ht[w.Substring(0, 1)] = w;
-            }
-
+                ht[w[0]] = w;
             Console.WriteLine(ht["b"]);
             Console.WriteLine(ht["f"]);
             Console.WriteLine(ht["o"]);
