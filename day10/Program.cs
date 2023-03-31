@@ -107,7 +107,7 @@ namespace day10
                     }
                 }
             }
-                
+            string a = "";
         }
     }
 }
